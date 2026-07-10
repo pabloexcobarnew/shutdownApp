@@ -1,0 +1,5 @@
+#include <windows.h>
+
+/* Lowest-numbered icon resource becomes the application icon shown in
+   Explorer and the taskbar. */
+1 ICON "icon.ico"
