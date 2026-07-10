@@ -1,8 +1,8 @@
 # Shutdown.exe
 
 Utilitar simplu de oprire a calculatorului cu un click, pentru **Windows**.
-La dublu-click cere confirmare **Yes/No**, iar la *Yes* execută `shutdown /s /t 0`
-(oprire imediată). Nu are fereastră de consolă și are o icoană verde de „power".
+La dublu-click execută **imediat** `shutdown /s /t 0` (oprire pe loc), **fără nicio
+confirmare** și fără vreun popup. Nu are fereastră de consolă și are o icoană verde de „power".
 
 ## Fișierul
 
@@ -14,8 +14,7 @@ output/Shutdown.exe
 
 ## Rulare
 
-Dublu-click pe `output\Shutdown.exe` → apare dialogul de confirmare → **Yes** oprește
-calculatorul, **No** anulează. Butonul implicit este *No*, ca să nu se închidă din greșeală.
+Dublu-click pe `output\Shutdown.exe` → calculatorul se oprește **imediat**, fără să întrebe nimic.
 
 ## Scurtătură pe Desktop („link")
 
